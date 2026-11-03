@@ -11,7 +11,6 @@ import java.io.File;
 import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
@@ -153,7 +152,6 @@ public class OrderJDBC
         StringBuilder output = new StringBuilder();
        
         // TODO: Traverse ResultSet and use StringBuilder.append() to add columns/rows to output string
-        
         return output.toString();
     }
     

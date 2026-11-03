@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "assignJava/lib/mysql-connector-j-9.5.0.jar",
+        "assignJava/lib/hamcrest-core-1.3.jar"
+    ]
+}

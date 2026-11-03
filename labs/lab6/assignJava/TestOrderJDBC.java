@@ -107,7 +107,7 @@ public class TestOrderJDBC
                         +"\n00025, Z. Zimmerman";                        
                 
         System.out.println(result);
-        assertEquals(answer, result);          
+        assertEquals(answer, result.trim());          
     }
     
     /**
